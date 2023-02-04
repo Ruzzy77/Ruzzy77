@@ -4,6 +4,8 @@
 
 [![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Ruzzy77)]()
 
+[![wakatime](https://wakatime.com/badge/user/47003f2b-4ece-4501-89b0-a59b69228600.svg)](https://wakatime.com/@47003f2b-4ece-4501-89b0-a59b69228600)
+
 ### Hi there 👋
 
 <!--
