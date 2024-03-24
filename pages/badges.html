@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Social Badges</title>
+    </head>
+    <body>
+        <style>
+            .container {
+                border-collapse: collapse;
+            }
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: left;
+            }
+            .badge {
+                margin: 5px;
+                border-radius: 5px;
+            }
+            .badge:active {
+                transform: scale(0.95);
+                transition: transform 0.3s;
+            }
+            .badge-disabled {
+                opacity: 0.5;
+            }
+        </style>
+
+        <!-- Badge Usages : https://shields.io/endpoint -->
+        <!-- Badge Examples : https://dev.to/envoy_/150-badges-for-github-pnk -->
+
+        <div class="container">
+            <!-- !todo  Replace `yourinformation` with your actual information -->
+
+            <!-- ::: First Row -->
+            <div class="flex-container">
+                <!-- ### GitHub -->
+                <!-- !here  Replace `your_username` with your GitHub username -->
+                <a href="https://github.com/Ruzzy77" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+                        alt="GitHub"
+                    />
+                </a>
+
+                <!-- ### GitHub : Follow -->
+                <!-- !here  Replace `your_username` with your GitHub username -->
+                <a href="https://github.com/Ruzzy77" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/github/followers/Ruzzy77?label=Follow&style=for-the-badge&logo=GitHub&color=000000"
+                        alt="Follow on GitHub"
+                    />
+                </a>
+
+                <!-- ### GitHub : Star -->
+                <!-- !here  Replace `your_username` with your GitHub username -->
+                <a href="https://github.com/Ruzzy77" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/github/stars/Ruzzy77?affiliations=OWNER&style=for-the-badge&logo=GitHub&color=000000"
+                        alt="Star on GitHub"
+                    />
+                </a>
+            </div>
+
+            <!-- ::: Second Row -->
+            <div class="flex-container">
+                <!-- ### Gmail -->
+                <!-- !here  Replace `your_email` with your email address -->
+                <a href="mailto:sungbal@tukorea.ac.kr" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+                        alt="Gmail"
+                    />
+                </a>
+
+                <!-- ### Slack -->
+                <!-- 슬랙 계정 프로필 - 더보기 버튼(⋮) - 프로필로 연결되는 링크 복사 -->
+                <!-- !here  Replace `your_workspace_profile` with your Slack workspace name -->
+                <a href="https://aidatasystemeh.slack.com/team/U04MPMRH6G6" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"
+                        alt="Slack"
+                    />
+                </a>
+
+                <!-- ### Notion -->
+                <!-- !here  Replace `your_workspace` with your Notion workspace name -->
+                <!-- 노션 워크스페이스 설정 - 공개 설정 - 도메인 - 웹에서 공유된 페이지의 주소 -->
+                <a href="aindsys.notion.site" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"
+                        alt="Notion"
+                    />
+                </a>
+
+                <!-- ### Zoom -->
+                <!-- !here  Replace `your_pmi` with your Zoom Personal Meeting ID -->
+                <!-- 줌 회의 - 내 개인 회의 ID(PMI) 10자리 -->
+                <a href="https://zoom.us/j/3274501343" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"
+                        alt="Zoom"
+                    />
+                </a>
+            </div>
+
+            <!-- ::: Third Row -->
+            <div class="flex-container">
+                <!-- ### LinkedIn -->
+                <!-- !here  Replace `your_username` with your LinkedIn username -->
+                <a href="https://www.linkedin.com/in/sungbal" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+                        alt="LinkedIn"
+                    />
+                </a>
+
+                <!-- ### Discord -->
+                <!-- !here  Replace `youruserid` with your Discord username -->
+                <a href="https://discord.com/users/339474670342373378" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
+                        alt="Discord"
+                    />
+                </a>
+
+                <!-- ### Instagram -->
+                <!-- !here  Replace `your_username` with your Instagram username -->
+                <a href="https://www.instagram.com/ruzzzzy/" target="_blank">
+                    <img
+                        class="badge"
+                        src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&labelColor=black"
+                        alt="Instagram"
+                    />
+                </a>
+
+                <!-- ### Pinterest -->
+                <!-- !!! This is an example of a disabled badge -->
+                <!-- !here  Replace `your_username` with your Pinterest username -->
+                <a
+                    href="https://www.pinterest.com/your_username/"
+                    target="_blank"
+                    style="pointer-events: none"
+                >
+                    <img
+                        class="badge badge-disabled"
+                        src="https://img.shields.io/badge/Pinterest-%23E60023.svg?&style=for-the-badge&logo=Pinterest&logoColor=white"
+                        alt="Pinterest"
+                    />
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
